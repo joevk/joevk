@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=header&text=Full%20Stack%20Engineer&fontSize=42&animation=fadeIn&fontColor=fff&fontAlignY=45&color=gradient&customColorList=0,2,2,5,30" width="100%" alt="Full Stack Engineer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=header&color=gradient&customColorList=0,2,2,5,30" width="100%" alt="Header Wave" />
 </div>
 
 <!-- TYPING BANNER FLANKED BY STACKOVERFLOW & TOTAL CONTRIBUTIONS -->
