@@ -1,21 +1,22 @@
 <svg
   width="854"
-  height="130"
+  height="100"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  viewBox="0 0 854 130"
+  viewBox="0 0 854 100"
   role="img"
   aria-label="Profile Header Banner"
 >
   <!--
-    Unified GitHub Profile Header Banner
-    Combines the animated fluid waving gradient background with the StackOverflow badge,
-    the animated Fira Code typing banner, and the Total Contributions stats widget
-    into a single cohesive banner.
+    Unified GitHub Profile Header Banner (Height: 100px - matching System Online banner)
+    Combines the animated fluid waving gradient background with:
+    - Left: StackOverflow badge
+    - Center: Perfectly centered Fira Code typing animation (nested SVG viewport)
+    - Right: Total Contributions stats card
   -->
 
   <defs>
-    <!-- Teal-to-navy linear gradient matching capsule-render (idx: 2) -->
+    <!-- Teal-to-navy linear gradient matching capsule-render (customColorList idx: 2) -->
     <linearGradient id="waveLinear" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#43cea2"/>
       <stop offset="100%" stop-color="#185a9d"/>
@@ -23,7 +24,7 @@
 
     <!-- Clip path to keep wave animation neatly inside the rounded container -->
     <clipPath id="bannerClip">
-      <rect x="0" y="0" width="854" height="130" rx="4"/>
+      <rect x="0" y="0" width="854" height="100" rx="4"/>
     </clipPath>
   </defs>
 
@@ -37,19 +38,19 @@
     }
     .stat-num {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, sans-serif;
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 700;
-      fill: #FF007F;
+      fill: #FE428E;
     }
     .stat-label {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, sans-serif;
       font-size: 11px;
       font-weight: 500;
-      fill: #FF007F;
+      fill: #FE428E;
     }
     .stat-range {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Ubuntu, sans-serif;
-      font-size: 9px;
+      font-size: 9.5px;
       font-weight: 400;
       fill: #A9FEF7;
     }
@@ -57,15 +58,15 @@
 
   <!-- Main Container -->
   <g clip-path="url(#bannerClip)">
-    <!-- Base dark background matching GitHub Dark Theme -->
-    <rect width="854" height="130" fill="#0D1117" />
+    <!-- Base dark background matching GitHub Dark Theme (remaining part is black/dark) -->
+    <rect width="854" height="100" fill="#0D1117" />
 
     <!--
-      Animated Waving Gradient Layer:
+      Animated Waving Gradient Layer (Height: 100px):
       Two overlapping fluid wave paths with smooth spline-interpolated motion (20s duration)
     -->
-    <g opacity="0.85">
-      <path fill="url(#waveLinear)" opacity="0.60">
+    <g transform="translate(427, 50) scale(1, 1) translate(-427, -50)">
+      <path fill="url(#waveLinear)" opacity="0.45">
         <animate
           attributeName="d"
           dur="20s"
@@ -74,10 +75,10 @@
           calcmod="spline"
           keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
           begin="0s"
-          values="M0 0 L 854 0 L 854 105 Q 640.5 70 427 100 T 0 85 Z; M0 0 L 854 0 L 854 80 Q 640.5 115 427 85 T 0 110 Z; M0 0 L 854 0 L 854 115 Q 640.5 85 427 115 T 0 90 Z; M0 0 L 854 0 L 854 105 Q 640.5 70 427 100 T 0 85 Z"
+          values="M0 0L 0 20Q 213.5 60 427 30T 854 55L 854 0 Z;M0 0L 0 45Q 213.5 60 427 40T 854 30L 854 0 Z;M0 0L 0 65Q 213.5 35 427 65T 854 30L 854 0 Z;M0 0L 0 20Q 213.5 60 427 30T 854 55L 854 0 Z"
         />
       </path>
-      <path fill="url(#waveLinear)" opacity="0.60">
+      <path fill="url(#waveLinear)" opacity="0.45">
         <animate
           attributeName="d"
           dur="20s"
@@ -86,78 +87,86 @@
           calcmod="spline"
           keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
           begin="-10s"
-          values="M0 0 L 854 0 L 854 90 Q 640.5 125 427 95 T 0 115 Z; M0 0 L 854 0 L 854 115 Q 640.5 75 427 110 T 0 80 Z; M0 0 L 854 0 L 854 85 Q 640.5 105 427 80 T 0 120 Z; M0 0 L 854 0 L 854 90 Q 640.5 125 427 95 T 0 115 Z"
+          values="M0 0L 0 35Q 213.5 80 427 50T 854 60L 854 0 Z;M0 0L 0 50Q 213.5 20 427 20T 854 40L 854 0 Z;M0 0L 0 45Q 213.5 25 427 50T 854 65L 854 0 Z;M0 0L 0 35Q 213.5 80 427 50T 854 60L 854 0 Z"
         />
       </path>
     </g>
 
     <!-- Table Structure: Outer border and vertical dividing grid lines -->
-    <rect x="0.5" y="0.5" width="853" height="129" fill="none" stroke="#30363D" stroke-width="1" />
-    <line x1="195" y1="0" x2="195" y2="130" stroke="#30363D" stroke-width="1" />
-    <line x1="645" y1="0" x2="645" y2="130" stroke="#30363D" stroke-width="1" />
+    <rect x="0.5" y="0.5" width="853" height="99" fill="none" stroke="#30363D" stroke-width="1" />
+    <line x1="195" y1="0" x2="195" y2="100" stroke="#30363D" stroke-width="1" />
+    <line x1="645" y1="0" x2="645" y2="100" stroke="#30363D" stroke-width="1" />
 
     <!--
       1. LEFT SECTION: Stack Overflow Badge
-      Hot pink background badge with white logo and bold typography
+      Hot pink background badge with white logo and bold typography, vertically centered at y=50
     -->
-    <g transform="translate(18, 47)">
+    <g transform="translate(18, 33)">
       <a xlink:href="https://stackoverflow.com/users/14017023/joel-t" target="_blank">
-        <rect width="160.25" height="36" rx="3" fill="#FF00FF" />
+        <rect width="160.25" height="34" rx="3" fill="#FF00FF" />
         <g fill="#FFFFFF">
           <!-- Stack Overflow Vector Icon -->
-          <svg x="10" y="9" width="18" height="18" viewBox="0 0 24 24">
+          <svg x="10" y="8" width="18" height="18" viewBox="0 0 24 24">
             <path fill="#FFFFFF" d="M15.725 0l-1.72 1.277 6.39 8.588 1.716-1.277L15.725 0zm-3.94 3.418l-1.369 1.644 8.225 6.85 1.369-1.644-8.225-6.85zm-3.15 4.465l-.905 1.94 9.702 4.517.904-1.94-9.701-4.517zm-1.85 4.86l-.44 2.093 10.473 2.201.44-2.092-10.473-2.203zM1.89 15.47V24h19.19v-8.53h-2.133v6.397H4.021v-6.396H1.89zm4.265 2.133v2.13h10.66v-2.13H6.154Z"/>
           </svg>
-          <text x="96" y="23" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-weight="bold" font-size="11.5" letter-spacing="0.5">STACKOVERFLOW</text>
+          <text x="96" y="22" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-weight="bold" font-size="11.5" letter-spacing="0.5">STACKOVERFLOW</text>
         </g>
       </a>
     </g>
 
     <!--
       2. CENTER SECTION: Animated Typing Banner
-      Sequentially types, holds, and erases 3 titles in cyan monospace font
+      Contained within a nested SVG viewport (x=195, width=450, height=50, centered at y=50).
+      This isolates the 450px coordinate space so x="50%" / text-anchor="middle" centers
+      the animated text perfectly between the two divider lines with no rightward drift.
     -->
-    <g transform="translate(205, 0)">
-      <!-- Line 1 -->
-      <path id="typePath0">
-        <animate id="t0" attributeName="d" begin="0s;t2.end" dur="5000ms" fill="remove"
-          values="m0,65 h0 ; m0,65 h430 ; m0,65 h430 ; m0,65 h0" keyTimes="0;0.64;0.84;1" />
+    <svg x="195" y="25" width="450" height="50" viewBox="0 0 450 50">
+      <!-- Line 1: CLOUD INFRASTRUCTURE -->
+      <path id="path0">
+        <animate id="d0" attributeName="d" begin="0s;d2.end" dur="5000ms" fill="remove"
+          values="m0,25 h0 ; m0,25 h450 ; m0,25 h450 ; m0,25 h0" keyTimes="0;0.64;0.84;1" />
       </path>
       <text class="mono-text" dominant-baseline="middle" x="50%" text-anchor="middle">
-        <textPath xlink:href="#typePath0">AZURE INFRASTRUCTURE EXPERT</textPath>
+        <textPath xlink:href="#path0">
+          CLOUD INFRASTRUCTURE
+        </textPath>
       </text>
 
-      <!-- Line 2 -->
-      <path id="typePath1">
-        <animate id="t1" attributeName="d" begin="t0.end" dur="5000ms" fill="remove"
-          values="m0,65 h0 ; m0,65 h430 ; m0,65 h430 ; m0,65 h0" keyTimes="0;0.64;0.84;1" />
+      <!-- Line 2: FULL-STACK ENGINEERING | AI/ML BUILDING -->
+      <path id="path1">
+        <animate id="d1" attributeName="d" begin="d0.end" dur="5000ms" fill="remove"
+          values="m0,25 h0 ; m0,25 h450 ; m0,25 h450 ; m0,25 h0" keyTimes="0;0.64;0.84;1" />
       </path>
       <text class="mono-text" dominant-baseline="middle" x="50%" text-anchor="middle">
-        <textPath xlink:href="#typePath1">FULL-STACK ENGINEERING | AI/ML BUILDING</textPath>
+        <textPath xlink:href="#path1">
+          FULL-STACK ENGINEERING | AI/ML BUILDING
+        </textPath>
       </text>
 
-      <!-- Line 3 -->
-      <path id="typePath2">
-        <animate id="t2" attributeName="d" begin="t1.end" dur="5000ms" fill="remove"
-          values="m0,65 h0 ; m0,65 h430 ; m0,65 h430 ; m0,65 h0" keyTimes="0;0.64;0.84;1" />
+      <!-- Line 3: ROBOTICS DEVELOPMENT | SOFTWARE ARCHITECTURE -->
+      <path id="path2">
+        <animate id="d2" attributeName="d" begin="d1.end" dur="5000ms" fill="remove"
+          values="m0,25 h0 ; m0,25 h450 ; m0,25 h450 ; m0,25 h0" keyTimes="0;0.64;0.84;1" />
       </path>
       <text class="mono-text" dominant-baseline="middle" x="50%" text-anchor="middle">
-        <textPath xlink:href="#typePath2">ROBOTICS DEVELOPMENT | SOFTWARE ARCHITECTURE</textPath>
+        <textPath xlink:href="#path2">
+          ROBOTICS DEVELOPMENT | SOFTWARE ARCHITECTURE
+        </textPath>
       </text>
-    </g>
+    </svg>
 
     <!--
       3. RIGHT SECTION: Total Contributions Stats Card
-      Dark card framed by cyan border showing contributions count and date range
+      Dark card framed by cyan border showing contributions count and date range, centered at y=50
     -->
-    <g transform="translate(660, 26)">
-      <!-- Card Container with subtle backdrop -->
-      <rect width="176" height="78" rx="4.5" fill="#0D1117" stroke="#00FFFF" stroke-width="1.2" />
+    <g transform="translate(662, 13)">
+      <!-- Card Container with dark backdrop and cyan border -->
+      <rect width="174" height="74" rx="4.5" fill="#0D1117" fill-opacity="0.90" stroke="#00FFFF" stroke-width="1.2" />
 
       <!-- Contribution metric details -->
-      <text x="88" y="32" text-anchor="middle" class="stat-num">429</text>
-      <text x="88" y="51" text-anchor="middle" class="stat-label">Total Contributions</text>
-      <text x="88" y="68" text-anchor="middle" class="stat-range">Oct 13, 2021 - Present</text>
+      <text x="87" y="29" text-anchor="middle" class="stat-num">429</text>
+      <text x="87" y="47" text-anchor="middle" class="stat-label">Total Contributions</text>
+      <text x="87" y="63" text-anchor="middle" class="stat-range">Oct 13, 2021 - Present</text>
     </g>
 
   </g>

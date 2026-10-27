@@ -23,7 +23,7 @@
       <p style="margin: 0; line-height: 1.5;">
         Software Engineer specializing in full-stack development, microservices, and Azure-based cloud solutions.
         <br><br>
-        ⚙️ <b>Hardware:</b> Raspberry Pi, Arduino, Robotics building
+        ⚙️ Hardware
       </p>
     </td>
     <td align="center" valign="middle" style="border: none; background: transparent; padding: 0 10px;">
@@ -113,4 +113,4 @@
 <!-- ENHANCED CONTACT SECTION -->
 
 <!-- DYNAMIC GRADIENT FOOTER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&text=SYSTEM%20ONLINE&fontSize=30&fontColor=fff&animation=fadeIn&fontAlignY=72&color=gradient&customColorList=0,2,2,5,30" width="100%" alt="Footer: System Online"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&text=SYSTEM%20ONLINE&fontSize=16&fontColor=fff&animation=fadeIn&fontAlignY=72&color=gradient&customColorList=0,2,2,5,30" width="100%" alt="Footer: System Online"/>
