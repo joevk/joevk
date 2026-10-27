@@ -1,24 +1,6 @@
+<!-- UNIFIED HEADER BANNER: ANIMATED WAVING GRADIENT BACKGROUND WITH STACKOVERFLOW, TYPING TEXT & STATS -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=header&color=gradient&customColorList=0,2,2,5,30" width="100%" alt="Header Wave" />
-</div>
-
-<!-- TYPING BANNER FLANKED BY STACKOVERFLOW & TOTAL CONTRIBUTIONS -->
-<div align="center">
-  <table align="center" style="border: none; background: transparent;">
-    <tr style="border: none; background: transparent;">
-      <td align="center" valign="middle" style="border: none; background: transparent; padding: 0 10px;">
-        <a href="https://stackoverflow.com/users/14017023/joel-t" target="_blank">
-          <img src="https://img.shields.io/badge/StackOVERFLOW-%23FF00FF.svg?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow" height="36"/>
-        </a>
-      </td>
-      <td align="center" valign="middle" style="border: none; background: transparent; padding: 0 10px;">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=4000&pause=1000&color=00FFFF&center=true&vCenter=true&random=false&width=460&lines=AZURE+INFRASTRUCTURE+EXPERT;FULL-STACK+ENGINEERING+%7C+AI%2FML+BUILDING;ROBOTICS%20DEVELOPMENT+%7C+SOFTWARE+ARCHITECTURE;" alt="Animated text: Azure end to end development, Database development, Full-Stack Engineering, AI/ML Implementation," />
-      </td>
-      <td align="center" valign="middle" style="border: none; background: transparent; padding: 0 10px;">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=joevk&theme=radical&border=00FFFF&background=0D1117&ring=FF00FF&fire=FF00FF&currStreakLabel=00FFFF&hide_current_streak=true&hide_longest_streak=true" alt="GitHub Total Contributions" height="75" />
-      </td>
-    </tr>
-  </table>
+  <img src="header.svg" width="100%" alt="Header Banner" />
 </div>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2" width="100%" alt="">
 
