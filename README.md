@@ -8,18 +8,17 @@
 
 
 <!-- OVERVIEW SECTION -->
-<h3 align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ltajlubDR1bXEzYW10ajkxdWp1ODBvZjY1d2g5MWM3ZHoxamgwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UoLt6Tm8wlSnWGfSFs/giphy.gif" width="35" height="35" alt="">
-  <span style="color:#00FFFF"> OVERVIEW </span>
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ltajlubDR1bXEzYW10ajkxdWp1ODBvZjY1d2g5MWM3ZHoxamgwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UoLt6Tm8wlSnWGfSFs/giphy.gif" width="35" height="35" alt="">
-</h3>
-
 <table align="center" style="border: none; background: transparent;">
   <tr style="border: none; background: transparent;">
     <td align="center" valign="middle" style="border: none; background: transparent; padding: 0 10px;">
-      <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="150" alt="Binary Pulse" />
+      <img src="https://streak-stats.demolab.com/?user=joevk&theme=tokyonight&border=00FFFF&background=0D1117&ring=00FFFF&fire=FF007F&currStreakNum=FF007F&sideNums=FF007F&currStreakLabel=00FFFF&sideLabels=00FFFF&dates=7982a9&card_width=300&card_height=190&hide_total_contributions=true&hide_current_streak=true" alt="GitHub Streak" />
     </td>
     <td align="left" valign="middle" style="border: none; background: transparent; padding: 0 15px; max-width: 320px;">
+      <h3 align="center" style="margin: 0 0 10px 0;">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ltajlubDR1bXEzYW10ajkxdWp1ODBvZjY1d2g5MWM3ZHoxamgwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UoLt6Tm8wlSnWGfSFs/giphy.gif" width="28" height="28" alt="">
+        <span style="color:#00FFFF"> OVERVIEW </span>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ltajlubDR1bXEzYW10ajkxdWp1ODBvZjY1d2g5MWM3ZHoxamgwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UoLt6Tm8wlSnWGfSFs/giphy.gif" width="28" height="28" alt="">
+      </h3>
       <p style="margin: 0; line-height: 1.5;">
         Software Engineer specializing in full-stack development, microservices, and Azure-based cloud solutions.
         <br><br>
@@ -38,12 +37,6 @@
 
 <!-- TECHNOLOGY MATRIX & STACK SECTION -->
 <div align="center">
-  <h3>
-    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjAxYmo3ajJjaTkwbWs4NW4zazB5dHlpcGVwOTVrNmplMHdlZWg4aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/juua9i2c2fA0AIp2iq/giphy.gif" width="35" height="35" alt="">
-    <span style="color:#00FFFF"> TECHNOLOGY MATRIX </span>
-    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjAxYmo3ajJjaTkwbWs4NW4zazB5dHlpcGVwOTVrNmplMHdlZWg4aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/juua9i2c2fA0AIp2iq/giphy.gif" width="35" height="35" alt="">
-  </h3>
-
   <table align="center" style="border: none; background: transparent;">
     <tr style="border: none; background: transparent;">
       <td align="center" valign="middle" style="border: none; background: transparent; padding: 10px;">
@@ -53,7 +46,11 @@
         <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="48" height="48" />
       </td>
       <td align="center" valign="middle" style="border: none; background: transparent; padding: 0 15px;">
-        <h3>⚙️ Technology STACK</h3>
+        <h3 align="center" style="margin: 0 0 10px 0;">
+          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjAxYmo3ajJjaTkwbWs4NW4zazB5dHlpcGVwOTVrNmplMHdlZWg4aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/juua9i2c2fA0AIp2iq/giphy.gif" width="28" height="28" alt="">
+          <span style="color:#00FFFF"> TECHNOLOGY MATRIX </span>
+          <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjAxYmo3ajJjaTkwbWs4NW4zazB5dHlpcGVwOTVrNmplMHdlZWg4aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/juua9i2c2fA0AIp2iq/giphy.gif" width="28" height="28" alt="">
+        </h3>
         <details>
           <summary><b>🔮 FRONTEND</b></summary>
           <div class="tech-badge-container">
@@ -71,6 +68,7 @@
             <img class="tech-badge" src="https://img.shields.io/badge/FastApi-000000.svg?style=for-the-badge&logo=FastApi&logoColor=white" alt="FastApi"/>
             <img class="tech-badge" src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white" alt="Python"/>
             <img class="tech-badge" src="https://img.shields.io/badge/NestJS-E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS"/>
+            <img class="tech-badge" src="https://img.shields.io/badge/Rust-000000.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
           </div>
         </details>
         <details>
@@ -92,25 +90,31 @@
             <img class="tech-badge" src="https://img.shields.io/badge/LangChain-00FFFF.svg?style=for-the-badge" alt="LangChain"/>
           </div>
         </details>
+        <details>
+          <summary><b>☁️ CLOUD & DEVOPS</b></summary>
+          <div class="tech-badge-container">
+            <img class="tech-badge" src="https://img.shields.io/badge/Microsoft_Azure-0078D4.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure"/>
+            <img class="tech-badge" src="https://img.shields.io/badge/Google_Cloud-4285F4.svg?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GCP"/>
+            <img class="tech-badge" src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+            <img class="tech-badge" src="https://img.shields.io/badge/Kubernetes-326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+          </div>
+        </details>
         <div style="display: flex; justify-content: center; padding-top: 15px;">
-          <img src="https://skillicons.dev/icons?i=nodejs,FastApi,nextjs,postgres,git,tensorflow,pytorch,figma&perline=8" alt="Tech Stack"/>
+          <img src="https://skillicons.dev/icons?i=nodejs,FastApi,nextjs,postgres,git,tensorflow,pytorch,rust&perline=8" alt="Tech Stack"/>
         </div>
       </td>
       <td align="center" valign="middle" style="border: none; background: transparent; padding: 10px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" width="48" height="48" /><br><br>
-        <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="48" height="48" /><br><br>
-        <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="48" height="48" /><br><br>
-        <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="48" height="48" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" width="44" height="44" /><br><br>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP" width="44" height="44" /><br><br>
+        <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="44" height="44" /><br><br>
+        <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="44" height="44" />
       </td>
     </tr>
   </table>
 </div>
 
-<!-- robotics SIGNATURES WITH ADVANCED VISUALIZATION -->
+<!-- 2PX GRADIENT DIVIDER -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=2" width="100%" alt="">
 
-
-<!-- ENHANCED CONTACT SECTION -->
-
 <!-- DYNAMIC GRADIENT FOOTER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&text=SYSTEM%20ONLINE&fontSize=16&fontColor=fff&animation=fadeIn&fontAlignY=72&color=gradient&customColorList=0,2,2,5,30" width="100%" alt="Footer: System Online"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=70&section=footer%20&fontSize=14&fontColor=fff&animation=fadeIn&fontAlignY=60&color=gradient&customColorList=0,2,2,5,30" width="100%" alt="Footer: System Online"/>
